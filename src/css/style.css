@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg: #000;
+    --button-login: #2e7bb4;
+    --footer-home: #bbcde8;
+    --bg-white: #fff;
+    --bg-login: #f1f9fe;
+    --text-color-pink: #d81d99;
+    --text-color-black: #333;
+    --text-color-gray: #5a5a5a;
+    --input-border: #c5c6ca;
+    --text-links: #2e7bb4;
+
+    --bg-dark: #24292d;
+    --bg-dark-claro: #323840;
+    --bg-dark-claro-2: #31353a;
+    --button-dark-login:rgb(95, 95, 95);
+    --input-dark: rgb(202, 202, 202);
+    --text-dark: #ccc;
+}
+
+.sec-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(63,201,251);
+    background: radial-gradient(circle, rgba(63,201,251,1) 0%, rgba(105,70,252,1) 100%);
+    font-size: 2vh;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.5s;
+}
+
+.imagem{
+    margin-bottom: 2vh;
+    width: 20vw;
+    height: 24vh;
+    border-radius: 4vb;
+}
+
+.caixa-form{
+    position: relative;
+    margin: auto;
+    display: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: var(--bg-white);
+    border-radius: 4vb;
+    padding: 1vh;
+    width: 30vw;
+    height: 80vh;
+    z-index: 1;
+    text-align: center;
+}
+
+.caixa-form input:not(#btnCad):not(#btnEntrar){
+    background: #f1f1f1;
+    width: 20vw;
+    border-radius:1vb;
+    color: gray;
+}
+
+.caixa-form input{
+    outline: 0;
+    background: #0550a6;
+    width: 10vw;
+    border: 0;
+    border-radius: 4vb;
+    margin: 0 0 1.5vh;
+    padding: 2vh;
+    box-sizing: border-box;
+    font-size: 2vh;
+    color: white;
+    transition: 0.2s;
+}
+
+.caixa-form input:hover{
+    transition: 0.2s;
+    background: #2880e4;
+}
+
+.mensagem{
+    margin: 1.5vh 0 0;
+    color: #b3b3b3;
+    font-size: 2vh;
+}
+
+.mensagem a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.caixa-form #cadastro-form {
+    display: none;
+}
